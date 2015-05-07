@@ -1,0 +1,10 @@
+[% META title = 'Manual Form Book Create' -%]
+<form action="[% c.uri_for(c.controller('users').action_for('edit'),[user.id]) %]" method="post">
+ 
+<table>
+  <tr><td>username:</td><td><input type="text" name="name"></td></tr>
+  <tr><td>password:</td><td><input type="password" name="mypassword"></td></tr>
+
+  </table> 
+<input type="submit" name="Submit" value="Submit">
+</form>

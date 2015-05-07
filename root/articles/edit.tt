@@ -1,0 +1,9 @@
+[% META title = 'Manual Form Book Create' -%]
+<form action="[% c.uri_for(c.controller('articles').action_for('edit'),[post.postid]) %]" method="post">
+ 
+<table>
+  <tr><td>body:</td><td><input type="text" name="body"></td></tr>
+
+  </table> 
+<input type="submit" name="Submit" value="Submit">
+</form>

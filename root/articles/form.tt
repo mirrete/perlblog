@@ -1,0 +1,9 @@
+[% META title = 'Manual Form Book Create' -%]
+ 
+<form method="post" action="[% c.uri_for('form_create_do') %]">
+<table>
+  <tr><td>body:</td><td><input type="textarea" name="body"></td></tr>
+  
+  </table>
+<input type="submit" name="Submit" value="Submit">
+</form>

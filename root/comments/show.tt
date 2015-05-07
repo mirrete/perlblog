@@ -1,0 +1,11 @@
+[% META title = 'Users List' -%]
+
+[%# Simple column set %]
+<p>
+[% object.body -%]
+</p>
+[% # Add a link to delete a book %]
+ [% # Add a link to delete a book %]
+    
+   <a href="[% c.uri_for(c.controller('comments').action_for('form_create'),object.postid) %]">add comments</a>    
+
