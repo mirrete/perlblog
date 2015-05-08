@@ -9,7 +9,7 @@
     
    <a href="[% c.uri_for(c.controller('comments').action_for('form_create'),object.postid) %]">add comments</a>    
 <table border="1">
-<tr><th>Id</th><th>Name</th><th>Actions</th></tr>
+<tr><th>Id</th><th>comments</th></tr>
 
 [% FOREACH comment IN comments -%]
 <tr>
